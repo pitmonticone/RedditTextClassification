@@ -1,7 +1,5 @@
 # Data Mining Challange 2020
 
-https://www.kaggle.com/c/datamining2020
-
 ## Overview 
 
 ### Description

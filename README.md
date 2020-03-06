@@ -42,10 +42,6 @@ Each comment has the following structure:
 
 ## Team 
 
-* [Pietro Monticone](https://github.com/pitmonticone)
-* [Claudio Moroni](https://github.com/claudio20497)
-* [Davide Orsenigo](https://github.com/dadorse)
-
-## Solution 
-
-We've developed `Tf-Idf` and `Word2Vec` approach in order to classify Comments and a simple sparse matrix approach to Author+Subreddit combinations.
+* [Monticone Pietro](https://github.com/pitmonticone)
+* [Moroni Claudio](https://github.com/claudio20497)
+* [Orsenigo Davide](https://github.com/dadorse)

@@ -1,5 +1,11 @@
 # Data Mining Challange 2020
 
+## Team 
+
+* [Monticone Pietro](https://github.com/pitmonticone)
+* [Moroni Claudio](https://github.com/claudio20497)
+* [Orsenigo Davide](https://github.com/dadorse)
+
 ## Overview 
 
 ### Description
@@ -39,9 +45,3 @@ Each comment has the following structure:
 * **subreddit**: contains the subreddit in which the comment was posted
 * **created_utc**: contains the date of submission in unixtime format
 * **body**: contains the text of the comment
-
-## Team 
-
-* [Monticone Pietro](https://github.com/pitmonticone)
-* [Moroni Claudio](https://github.com/claudio20497)
-* [Orsenigo Davide](https://github.com/dadorse)

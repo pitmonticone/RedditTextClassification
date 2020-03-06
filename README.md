@@ -1,4 +1,4 @@
-# Data Mining Challange 2020
+# Data Mining Challange 
 
 ## Team 
 

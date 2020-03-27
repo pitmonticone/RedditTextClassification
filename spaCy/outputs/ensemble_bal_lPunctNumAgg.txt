@@ -1,0 +1,7 @@
+ensemble_bal_lPunctNumAgg
+    epoch = 0, losses = {'textcat': 11.111040544696152}, roc = 0.7908804216346984 
+     epoch = 1, losses = {'textcat': 19.10246680257842}, roc = 0.8461609354299866 
+     epoch = 2, losses = {'textcat': 23.33828358113533}, roc = 0.8425306721963021 
+     epoch = 3, losses = {'textcat': 25.14938404349232}, roc = 0.828738263924889 
+     epoch = 4, losses = {'textcat': 25.967542636937917}, roc = 0.8076925292321872 
+ 

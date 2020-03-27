@@ -1,0 +1,11 @@
+bow_bal_lPunctAgg
+    epoch = 0, losses = {'textcat': 9.302060287109384}, roc = 0.822655664996256 
+     epoch = 1, losses = {'textcat': 13.162341818209484}, roc = 0.830693076435689 
+     epoch = 2, losses = {'textcat': 15.271727846679754}, roc = 0.8276380968838201 
+     epoch = 3, losses = {'textcat': 16.73283363978179}, roc = 0.8206403720983815 
+     epoch = 4, losses = {'textcat': 17.417289779973682}, roc = 0.8212559760382466 
+     epoch = 5, losses = {'textcat': 17.877576482184697}, roc = 0.8197432463567768 
+     epoch = 6, losses = {'textcat': 18.1894339097069}, roc = 0.8176357928690744 
+ bow_bal_lPunctAgg
+    epoch = 0, losses = {'textcat': 9.32271635598022}, roc = 0.8531601002246415 
+ 

@@ -1,0 +1,11 @@
+ensemble_lPunctNumPersLemAgg    epoch = 0, losses = {'textcat': 10.325701178051531}, roc = 0.8664304967269927 
+     epoch = 1, losses = {'textcat': 15.913291760210996}, roc = 0.8915158516236684 
+     epoch = 2, losses = {'textcat': 18.7300274250465}, roc = 0.8803131818765243 
+     epoch = 3, losses = {'textcat': 20.120089923865635}, roc = 0.8712360415864459 
+     epoch = 4, losses = {'textcat': 20.804775718720222}, roc = 0.8688127326402258 
+     epoch = 5, losses = {'textcat': 21.14956892632512}, roc = 0.8665588499550764 
+     epoch = 6, losses = {'textcat': 21.423461501962542}, roc = 0.8723090745732256 
+     epoch = 7, losses = {'textcat': 21.56527505127891}, roc = 0.8700295212424592 
+     epoch = 8, losses = {'textcat': 21.688171283806636}, roc = 0.8668258246694905 
+     epoch = 9, losses = {'textcat': 21.79666106960388}, roc = 0.8704813246053137 
+ 

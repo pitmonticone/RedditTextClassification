@@ -1,0 +1,11 @@
+ensemble_lPunctNumStopOovAgg    epoch = 0, losses = {'textcat': 10.528761210793164}, roc = 0.8673289693235784 
+     epoch = 1, losses = {'textcat': 16.21045877024153}, roc = 0.889338980875369 
+     epoch = 2, losses = {'textcat': 19.006704837200232}, roc = 0.8886818123475806 
+     epoch = 3, losses = {'textcat': 20.306096649514416}, roc = 0.87391092285971 
+     epoch = 4, losses = {'textcat': 20.95130760752823}, roc = 0.8736644846617894 
+     epoch = 5, losses = {'textcat': 21.27921311019021}, roc = 0.8782441278398152 
+     epoch = 6, losses = {'textcat': 21.510209205060605}, roc = 0.8773328199204212 
+     epoch = 7, losses = {'textcat': 21.645089315511605}, roc = 0.8748350661019125 
+     epoch = 8, losses = {'textcat': 21.741663373617406}, roc = 0.8733923758182519 
+     epoch = 9, losses = {'textcat': 21.76332084200426}, roc = 0.8705532024130407 
+ 

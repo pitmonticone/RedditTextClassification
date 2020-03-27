@@ -1,0 +1,9 @@
+bow_bal_lPunctNumLemAgg
+    epoch = 0, losses = {'textcat': 8.920310128462006}, roc = 0.8499539197050862 
+     epoch = 1, losses = {'textcat': 12.793419339724329}, roc = 0.8537411439433212 
+     epoch = 2, losses = {'textcat': 15.015833610607764}, roc = 0.8455287713841368 
+     epoch = 3, losses = {'textcat': 16.48632318486966}, roc = 0.8568537238638327 
+     epoch = 4, losses = {'textcat': 17.36400533343001}, roc = 0.857495967974195 
+     epoch = 5, losses = {'textcat': 17.890244026477234}, roc = 0.8565642820114049 
+     epoch = 6, losses = {'textcat': 18.371415728931197}, roc = 0.851052646736939 
+ 

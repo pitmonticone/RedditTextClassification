@@ -1,0 +1,11 @@
+ensemble_lPunctNumStopLemAgg    epoch = 0, losses = {'textcat': 10.419062311004382}, roc = 0.8478706199460917 
+     epoch = 1, losses = {'textcat': 16.18246567517781}, roc = 0.8796816839943525 
+     epoch = 2, losses = {'textcat': 19.30511438575013}, roc = 0.8775920934411501 
+     epoch = 3, losses = {'textcat': 20.81128679516405}, roc = 0.8779412142215377 
+     epoch = 4, losses = {'textcat': 21.478999641421396}, roc = 0.8684687459889617 
+     epoch = 5, losses = {'textcat': 21.86197143290219}, roc = 0.8719034783724811 
+     epoch = 6, losses = {'textcat': 21.966874151151934}, roc = 0.866907970735464 
+     epoch = 7, losses = {'textcat': 22.130305263283137}, roc = 0.865177769220896 
+     epoch = 8, losses = {'textcat': 22.24113396179771}, roc = 0.8653112565781029 
+     epoch = 9, losses = {'textcat': 22.4314443554733}, roc = 0.8684841483763316 
+ 

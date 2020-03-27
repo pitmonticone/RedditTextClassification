@@ -1,0 +1,8 @@
+bow_lPunctNumPersAgg
+    epoch = 0, losses = {'textcat': 9.659992030909795}, roc = 0.8598382749326147 
+     epoch = 1, losses = {'textcat': 13.254407076947524}, roc = 0.8739340264407651 
+     epoch = 2, losses = {'textcat': 15.111549782759436}, roc = 0.8792940572455397 
+     epoch = 3, losses = {'textcat': 15.997021635469657}, roc = 0.877930945963291 
+     epoch = 4, losses = {'textcat': 16.575501656098304}, roc = 0.8770196380438967 
+     epoch = 5, losses = {'textcat': 16.928584417800174}, roc = 0.8734591194968553 
+ 

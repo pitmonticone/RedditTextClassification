@@ -1,0 +1,9 @@
+bow_bal_lPunctNumStopOovAgg
+    epoch = 0, losses = {'textcat': 7.644319462408021}, roc = 0.8646297736305512 
+     epoch = 1, losses = {'textcat': 10.299294181489332}, roc = 0.8604047865906342 
+     epoch = 2, losses = {'textcat': 11.559321389345481}, roc = 0.8573375669604286 
+     epoch = 3, losses = {'textcat': 12.309172212446663}, roc = 0.8520440930821958 
+     epoch = 4, losses = {'textcat': 12.788964540282382}, roc = 0.8490193537238638 
+     epoch = 5, losses = {'textcat': 13.128131629973968}, roc = 0.8473633431253961 
+     epoch = 6, losses = {'textcat': 13.391003333925637}, roc = 0.8459773342549393 
+ 

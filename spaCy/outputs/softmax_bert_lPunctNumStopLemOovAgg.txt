@@ -1,0 +1,4 @@
+softmax_bert_lPunctNumStopLemOovAgg
+    epoch = 0, roc = 0.803136085548301 
+     epoch = 1, roc = 0.6947483419875585 
+ 

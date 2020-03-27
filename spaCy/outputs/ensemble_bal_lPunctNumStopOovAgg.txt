@@ -1,0 +1,7 @@
+ensemble_bal_lPunctNumStopOovAgg
+    epoch = 0, losses = {'textcat': 10.784322501625866}, roc = 0.8235895109728703 
+     epoch = 1, losses = {'textcat': 17.672744434559718}, roc = 0.8856099879039225 
+     epoch = 2, losses = {'textcat': 20.84777028957251}, roc = 0.8836371752779217 
+     epoch = 3, losses = {'textcat': 22.28241401606772}, roc = 0.8754190426818732 
+     epoch = 4, losses = {'textcat': 22.99313979086327}, roc = 0.8619981567882034 
+ 

@@ -1,0 +1,22 @@
+ensemble_lPunctNumStopOovAgg    epoch = 0, losses = {'textcat': 10.528761210793164}, roc = 0.8673289693235784 
+     epoch = 1, losses = {'textcat': 16.21045877024153}, roc = 0.889338980875369 
+     epoch = 2, losses = {'textcat': 19.006704837200232}, roc = 0.8886818123475806 
+     epoch = 3, losses = {'textcat': 20.306096649514416}, roc = 0.87391092285971 
+     epoch = 4, losses = {'textcat': 20.95130760752823}, roc = 0.8736644846617894 
+     epoch = 5, losses = {'textcat': 21.27921311019021}, roc = 0.8782441278398152 
+     epoch = 6, losses = {'textcat': 21.510209205060605}, roc = 0.8773328199204212 
+     epoch = 7, losses = {'textcat': 21.645089315511605}, roc = 0.8748350661019125 
+     epoch = 8, losses = {'textcat': 21.741663373617406}, roc = 0.8733923758182519 
+     epoch = 9, losses = {'textcat': 21.76332084200426}, roc = 0.8705532024130407 
+ ensemble_lPunctNumStopOovAgg
+    epoch = 0, losses = {'textcat': 10.605348191806115}, roc = 0.8644795276601206 
+     epoch = 1, losses = {'textcat': 16.36319550999906}, roc = 0.8788910281093569 
+     epoch = 2, losses = {'textcat': 19.37329041323028}, roc = 0.8780028237710179 
+     epoch = 3, losses = {'textcat': 20.752987753380012}, roc = 0.8651315620587856 
+     epoch = 4, losses = {'textcat': 21.361254807152925}, roc = 0.859535361314337 
+     epoch = 5, losses = {'textcat': 21.65353330239163}, roc = 0.8487896290591709 
+     epoch = 6, losses = {'textcat': 21.97102079426821}, roc = 0.8549197792324477 
+     epoch = 7, losses = {'textcat': 22.053787052982}, roc = 0.8488461044795277 
+     epoch = 8, losses = {'textcat': 22.097230001885983}, roc = 0.838906430496727 
+     epoch = 9, losses = {'textcat': 22.243994371655553}, roc = 0.8437376460017969 
+ 

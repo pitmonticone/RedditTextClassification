@@ -1,0 +1,3 @@
+# ReadMe
+
+Notebooks and ReadMes inside folder provide concise decriptions of the code. To have a more in-depth resume, please read [this Stack Overflow Question](https://stackoverflow.com/questions/60821793/text-classification-with-spacy-going-beyond-the-basics-to-improve-performance), this [GitHub Issue](https://github.com/explosion/spaCy/issues/5224) and a comment to a [Feature Request](https://github.com/explosion/spaCy/issues/2253#issuecomment-605502320). 

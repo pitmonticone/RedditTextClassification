@@ -48,15 +48,18 @@ Each comment has the following structure:
 
 ## Solution 
 
-### Unsuccessful Training Strategy
+### Unsuccessful Model
 
-An exploration of [SpaCy](https://github.com/explosion/spaCy) was performed. One may find the relevant notebooks [here](https://github.com/pitmonticone/data-mining-challange/tree/master/spaCy). The model works and has a similar strategy to the one presented above, though its performance is lower (roc = 0.894). The exploration has been concluded with this [Stack Overflow Question](https://stackoverflow.com/questions/60821793/text-classification-with-spacy-going-beyond-the-basics-to-improve-performance), this [GitHub Issue](https://github.com/explosion/spaCy/issues/5224) and a comment to a [Feature Request](https://github.com/explosion/spaCy/issues/2253#issuecomment-605502320). 
+An exploration of [SpaCy](https://github.com/explosion/spaCy) was performed. One may find the relevant notebooks [here](https://github.com/pitmonticone/data-mining-challange/tree/master/spaCy). The model works and has a similar strategy to the one presented below, though its performance is lower (roc = 0.894). The exploration has been concluded with this [Stack Overflow question](https://stackoverflow.com/questions/60821793/text-classification-with-spacy-going-beyond-the-basics-to-improve-performance), this [GitHub Issue](https://github.com/explosion/spaCy/issues/5224) and a comment to a [Feature Request](https://github.com/explosion/spaCy/issues/2253#issuecomment-605502320). 
 
-### Successful Training Strategy
+### Successful Model
 
-The train set has been grouped by author and the resulting texts, aggregated with `" ".join`, have been turned into a BOW (see this [brief Kaggle tutorial](https://www.kaggle.com/matleonard/text-classification#Bag-of-Words). 80% of the resulting data has been used to train an [XGBoost](https://www.kaggle.com/alexisbcook/xgboost), which was later used to predict the remeining 20%.  
-Then, a [Document Embedding model](https://medium.com/wisio/a-gentle-introduction-to-doc2vec-db3e8c0cce5e) has been fitted on test and train texts. 80% of train vectors were later used to train a [Multi Layer Perceptron](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html), which then predicted the remaining 20% and the test set. Third, an MLP on the Counterized subredidts has been trained, just like th models above. 
-The predictions on the 20% of the XGBoost and of the two MLPs were used to train and validate a final logistic regression.  
-Finally, a new XGBoost and and two new MLPs were trained on all train texts, and the predictions of the two used by the logistic regression to output the final submission.  
+The training set has been grouped by author and the resulting texts, as if aggregated with `" ".join`, have been turned into a BOW (see this [brief Kaggle tutorial](https://www.kaggle.com/matleonard/text-classification#Bag-of-Words). 
+
+1. 80% of the resulting data has been used to train an [XGBoost](https://www.kaggle.com/alexisbcook/xgboost), which was later used to predict the remeining 20%.  
+2. A [Document Embedding model](https://medium.com/wisio/a-gentle-introduction-to-doc2vec-db3e8c0cce5e) has been fitted on test and training texts. 80% of training vectors were later used to train a [Multi Layer Perceptron](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html), which then predicted the remaining 20% and the test set.
+3. A MLP on the binary countvectorized subreddits has been trained, just like the models above. 
+4. The predictions on the 20% of the XGBoost and of the two MLPs were used to train and validate a final logistic regression.  
+5. Finally, a new XGBoost and and two new MLPs were trained on all train texts, and the predictions of the two used by the logistic regression to output the final submission.  
 
 ![](https://github.com/pitmonticone/data-mining-challange/blob/master/images/flow-chart.png)

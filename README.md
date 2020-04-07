@@ -54,7 +54,7 @@ An exploration of [SpaCy](https://github.com/explosion/spaCy) was performed. One
 
 ### Successful Model
 
-The training set has been grouped by author and the resulting texts, as if aggregated with `" ".join`, have been turned into a BOW (see this [brief Kaggle tutorial](https://www.kaggle.com/matleonard/text-classification#Bag-of-Words). 
+The training set has been grouped by author and the resulting texts, as if aggregated with `" ".join`, have been turned into a BOW (see this [brief Kaggle tutorial](https://www.kaggle.com/matleonard/text-classification#Bag-of-Words)). 
 
 1. 80% of the resulting data has been used to train an [XGBoost](https://www.kaggle.com/alexisbcook/xgboost), which was later used to predict the remeining 20%.  
 2. A [Document Embedding model](https://medium.com/wisio/a-gentle-introduction-to-doc2vec-db3e8c0cce5e) has been fitted on test and training texts. 80% of training vectors were later used to train a [Multi Layer Perceptron](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html), which then predicted the remaining 20% and the test set.

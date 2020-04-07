@@ -58,3 +58,5 @@ Finally, a new XGBoost and and two new MLPs were trained on all train texts, and
 ### Unsuccessful training strategy
 
 An exploration of [SpaCy](https://github.com/explosion/spaCy) was performed. One may find the relevant notebooks [here](https://github.com/pitmonticone/data-mining-challange/tree/master/spaCy). The model works and has a similar strategy to the one presented above, though its performance is lower (roc = 0.894). The exploration has been concluded with this [Stack Overflow Question](https://stackoverflow.com/questions/60821793/text-classification-with-spacy-going-beyond-the-basics-to-improve-performance), this [GitHub Issue](https://github.com/explosion/spaCy/issues/5224) and a comment to a [Feature Request](https://github.com/explosion/spaCy/issues/2253#issuecomment-605502320). 
+
+![](https://github.com/pitmonticone/data-mining-challange/blob/master/images/flow-chart.png)

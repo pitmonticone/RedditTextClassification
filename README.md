@@ -1,6 +1,11 @@
-# Data Mining Challange 
+# Data Mining Challange: *Reddit Gender Text-Classification*
 
-## Team 
+* [Team](#team)
+* [Overview](#overview)
+* [Solution](#solution)
+
+
+## Team
 
 * [Monticone Pietro](https://github.com/pitmonticone)
 * [Moroni Claudio](https://github.com/claudio20497)

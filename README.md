@@ -6,7 +6,6 @@
 
 [**Solution**](#solution)
 
-
 ## Team
 
 * [Monticone Pietro](https://github.com/pitmonticone)

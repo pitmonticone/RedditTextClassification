@@ -1,8 +1,10 @@
 # Data Mining Challange: *Reddit Gender Text-Classification*
 
-* [Team](#team)
-* [Overview](#overview)
-* [Solution](#solution)
+[**Team**](#team)
+
+[**Overview**](#overview)
+
+[**Solution**](#solution)
 
 
 ## Team

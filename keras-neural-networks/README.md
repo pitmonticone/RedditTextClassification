@@ -12,4 +12,4 @@ Trains and predicts an embedding layer before classifying. Several netowrks have
 
 ### 3. Embeddings classification
 
-Same as above, but with glove vectors pretrained on 6B words and 300 dimensions. Releted notebook: `pretrained-embeddings.ipynb`
+Same as above, but with glove vectors pretrained on 6B words and 300 dimensions. Related notebook: `pretrained-embeddings.ipynb`.

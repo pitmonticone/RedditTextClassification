@@ -8,8 +8,8 @@ This task is brought forward by the `simpleNet.ipynb`,`simpleNetPrediction.ipynb
 
 ### 2. Embeddings classification
 
-Trains and predicts an embedding layer before classifying. Several netowrks have been tried. Due to a poorer validation performance if compared to more transparent models like an MLP on doc2vec (see [successful-model](https://github.com/pitmonticone/data-mining-challange/tree/master/successful-models)), we thought it not to be worth a gridsearch & prediction effort.
+Trains and predicts an embedding layer before classifying. Several netowrks have been tried. Due to a poorer validation performance if compared to more transparent models like an MLP on doc2vec (see [successful-model](https://github.com/pitmonticone/data-mining-challange/tree/master/successful-models)), we thought it not to be worth a gridsearch & prediction effort. Releted notebook: `Embeddings.ipynb`
 
 ### 3. Embeddings classification
 
-Same as above, but with glove vectors pretrained on 6B words and 300 dimensions.
+Same as above, but with glove vectors pretrained on 6B words and 300 dimensions. Releted notebook: `PretrainedEmbeddings.ipynb`

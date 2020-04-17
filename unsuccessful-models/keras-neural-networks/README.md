@@ -1,6 +1,6 @@
 ## Keras Neural Networks
 
-This folder contains three approaches with nueral networks.
+This folder contains three approaches with neural networks.
 
 ### 1. TFIDF classification
 

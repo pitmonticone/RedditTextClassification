@@ -1,4 +1,4 @@
-# Data Mining Challange: *Reddit Gender Text-Classification*
+# Reddit Gender Text-Classification
 
 [**Team**](#team)
 

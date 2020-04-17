@@ -1,4 +1,16 @@
-# Data Mining Challange 2020
+# Data Mining Challange: *Reddit Gender Text-Classification*
+
+[**Team**](#team)
+
+[**Overview**](#overview)
+
+[**Solution**](#solution)
+
+## Team
+
+* [Monticone Pietro](https://github.com/pitmonticone)
+* [Moroni Claudio](https://github.com/claudio20497)
+* [Orsenigo Davide](https://github.com/dadorse)
 
 ## Overview 
 
@@ -24,14 +36,14 @@ The evaluation metric for this competition is the [Area Under the ROC Curve](htt
 
 We selected a total of 20k users with self reported gender. Among these, we selected 5000 for training, and the remaining 15000 are used for evaluation. 
 
-### File descriptions
+### File Descriptions
 
 * **train_data.csv.gz**: contains all comments of the users selected for training
 * **train_target.csv**: contains the genders of the users selected for training
 * **test_data.csv.gz**: contains the comments of the users selected for evaluation
 * **sample.csv**: a sample submission file in the correct format
 
-### Data fields
+### Data Fields
 
 Each comment has the following structure:
 
@@ -40,12 +52,20 @@ Each comment has the following structure:
 * **created_utc**: contains the date of submission in unixtime format
 * **body**: contains the text of the comment
 
-## Team 
-
-* [Monticone Pietro](https://github.com/pitmonticone)
-* [Moroni Claudio](https://github.com/claudio20497)
-* [Orsenigo Davide](https://github.com/dadorse)
-
 ## Solution 
 
-We've developed `Tf-Idf` and `Word2Vec` approach in order to classify Comments and a simple sparse matrix approach to Author+Subreddit combinations.
+### Unsuccessful Model
+
+An exploration of [SpaCy](https://github.com/explosion/spaCy) was performed. One may find the relevant notebooks [here](https://github.com/pitmonticone/data-mining-challange/tree/master/spaCy). The model works and has a similar strategy to the one presented below, though its performance is lower (roc = 0.894). The exploration has been concluded with this [Stack Overflow question](https://stackoverflow.com/questions/60821793/text-classification-with-spacy-going-beyond-the-basics-to-improve-performance), this [GitHub Issue](https://github.com/explosion/spaCy/issues/5224) and a comment to a [Feature Request](https://github.com/explosion/spaCy/issues/2253#issuecomment-605502320). 
+
+### Successful Model
+
+The training set has been grouped by author and the resulting texts, as if aggregated with `" ".join`, have been turned into a BOW (see this [brief Kaggle tutorial](https://www.kaggle.com/matleonard/text-classification#Bag-of-Words)). 
+
+1. 80% of the resulting data has been used to train an [XGBoost](https://www.kaggle.com/alexisbcook/xgboost), which was later used to predict the remeining 20%.  
+2. A [Document Embedding model](https://medium.com/wisio/a-gentle-introduction-to-doc2vec-db3e8c0cce5e) has been fitted on test and training texts. 80% of training vectors were later used to train a [Multi Layer Perceptron](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html), which then predicted the remaining 20% and the test set.
+3. A MLP on the binary countvectorized subreddits has been trained, just like the models above. 
+4. The predictions on the 20% of the XGBoost and of the two MLPs were used to train and validate a final logistic regression.  
+5. Finally, a new XGBoost and and two new MLPs were trained on all train texts, and the predictions of the two used by the logistic regression to output the final submission.  
+
+![](https://github.com/pitmonticone/data-mining-challange/blob/master/images/flow-chart.png)

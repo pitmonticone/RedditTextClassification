@@ -54,12 +54,12 @@ Each comment has the following structure:
 
 ## Solution 
 
-### Unsuccessful Model
+### Unsuccessful Models
 
-An exploration of [SpaCy](https://github.com/explosion/spaCy) was performed. One may find the relevant notebooks [here](https://github.com/pitmonticone/data-mining-challange/tree/master/spaCy). The model works and has a similar strategy to the one presented below, though its performance is lower (roc = 0.894). The exploration has been concluded with this [Stack Overflow question](https://stackoverflow.com/questions/60821793/text-classification-with-spacy-going-beyond-the-basics-to-improve-performance), this [GitHub Issue](https://github.com/explosion/spaCy/issues/5224) and a comment to a [Feature Request](https://github.com/explosion/spaCy/issues/2253#issuecomment-605502320). 
-We've also tried [neural networks](https://github.com/pitmonticone/data-mining-challange/tree/master/keras-neural-networks) with `Keras`.
+An exploration of [SpaCy](https://github.com/explosion/spaCy) was performed. One may find the relevant notebooks [here](https://github.com/InPhyT/DataMiningChallange/tree/master/unsuccessful-models/spaCy). The model works and has a similar strategy to the one presented below, though its performance is lower (roc = 0.894). The exploration has been concluded with this [Stack Overflow question](https://stackoverflow.com/questions/60821793/text-classification-with-spacy-going-beyond-the-basics-to-improve-performance), this [GitHub Issue](https://github.com/explosion/spaCy/issues/5224) and a comment to a [Feature Request](https://github.com/explosion/spaCy/issues/2253#issuecomment-605502320). 
+We've also tried [neural networks](https://github.com/InPhyT/DataMiningChallange/tree/master/unsuccessful-models/keras-neural-networks) with `Keras`.
 
-### Successful Model
+### Successful Models
 
 The training set has been grouped by author and the resulting texts, as if aggregated with `" ".join`, have been turned into a BOW (see this [brief Kaggle tutorial](https://www.kaggle.com/matleonard/text-classification#Bag-of-Words)). 
 
@@ -69,4 +69,4 @@ The training set has been grouped by author and the resulting texts, as if aggre
 4. The predictions on the 20% of the XGBoost and of the two MLPs were used to train and validate a final logistic regression.  
 5. Finally, a new XGBoost and and two new MLPs were trained on all train texts, and the predictions of the two used by the logistic regression to output the final submission.  
 
-![](https://github.com/pitmonticone/data-mining-challange/blob/master/images/flow-chart.png)
+![](https://github.com/InPhyT/DataMiningChallange/blob/master/images/flow-chart.png)

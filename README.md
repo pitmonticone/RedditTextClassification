@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitmonticone/RedditTextClassification/master)
+
 # Reddit Gender Text-Classification
 
 [**Team**](#team)

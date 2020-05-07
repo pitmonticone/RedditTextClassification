@@ -64,8 +64,8 @@ Each comment has the following structure:
 
 ### Unsuccessful Models
 
-An exploration of [SpaCy](https://github.com/explosion/spaCy) was performed. One may find the relevant notebooks [here](https://github.com/pitmonticone/RedditTextClassification/tree/master/spaCy). The model works and has a similar strategy to the one presented below, though its performance is lower (roc = 0.894). The exploration has been concluded with this [Stack Overflow question](https://stackoverflow.com/questions/60821793/text-classification-with-spacy-going-beyond-the-basics-to-improve-performance), this [GitHub Issue](https://github.com/explosion/spaCy/issues/5224) and a comment to a [Feature Request](https://github.com/explosion/spaCy/issues/2253#issuecomment-605502320). 
-We've also tried [neural networks](https://github.com/pitmonticone/RedditTextClassification/tree/master/keras-neural-networks) with `Keras`.
+An exploration of [SpaCy](https://github.com/explosion/spaCy) was performed. One may find the relevant notebooks [here](https://nbviewer.jupyter.org/github/pitmonticone/RedditTextClassification/tree/master/spaCy/). The model works and has a similar strategy to the one presented below, though its performance is lower (roc = 0.894). The exploration has been concluded with this [Stack Overflow question](https://stackoverflow.com/questions/60821793/text-classification-with-spacy-going-beyond-the-basics-to-improve-performance), this [GitHub Issue](https://github.com/explosion/spaCy/issues/5224) and a comment to a [Feature Request](https://github.com/explosion/spaCy/issues/2253#issuecomment-605502320). 
+We've also tried [neural networks](https://nbviewer.jupyter.org/github/pitmonticone/RedditTextClassification/tree/master/keras-neural-networks/) with `Keras`.
 
 ### Successful Models
 

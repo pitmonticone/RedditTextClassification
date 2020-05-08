@@ -1,5 +1,3 @@
-[![DOI](https://zenodo.org/badge/256767401.svg)](https://zenodo.org/badge/latestdoi/256767401)
-
 # Reddit Gender Text-Classification
 
 [**Team**](#team)

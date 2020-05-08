@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/256767401.svg)](https://zenodo.org/badge/latestdoi/256767401)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitmonticone/RedditTextClassification/master)
 <a href="https://colab.research.google.com/github/pitmonticone/RedditTextClassification/blob/master">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="width:250px;"/>

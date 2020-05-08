@@ -1,11 +1,3 @@
-# Reddit Gender Text-Classification
-
-[**Team**](#team)
-
-[**Overview**](#overview)
-
-[**Solution**](#solution)
-
 ## Team
 
 * [Monticone Pietro](https://github.com/pitmonticone)

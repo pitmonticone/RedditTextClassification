@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/256767401.svg)](https://zenodo.org/badge/latestdoi/256767401)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitmonticone/RedditTextClassification/master)
-[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)] (https://www.kaggle.com/pietromonticone/submission)
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)] (https://kaggle.com/kernels/welcome?src=https://www.kaggle.com/pietromonticone/submission)
 <a href="https://colab.research.google.com/github/pitmonticone/RedditTextClassification/blob/master">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="width:250px;"/>
   </a>

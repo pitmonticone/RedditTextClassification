@@ -1,9 +1,9 @@
 ![Size](https://img.shields.io/github/repo-size/pypsa/pypsa-eur)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/pitmonticone/RedditTextClassification/)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitmonticone/RedditTextClassification/master)
 [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/pietromonticone/submission)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pitmonticone/RedditTextClassification/blob/master)
-[![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/pitmonticone/RedditTextClassification/)
 
 
 # Reddit Gender Text-Classification

@@ -1,4 +1,4 @@
-![Size](https://img.shields.io/github/repo-size/pypsa/pypsa-eur)
+![Size](https://img.shields.io/github/repo-size/pitmonticone/RedditTextClassification)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/pitmonticone/RedditTextClassification/)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitmonticone/RedditTextClassification/master)

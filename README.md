@@ -1,12 +1,39 @@
-![Size](https://img.shields.io/github/repo-size/pitmonticone/RedditTextClassification)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/pitmonticone/RedditTextClassification/)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitmonticone/RedditTextClassification/master)
-[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/pietromonticone/submission)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pitmonticone/RedditTextClassification/blob/master)
+<!-- Meta-Badges -->
+</p>
 
+<p align="center">
+    <img alt="Size" src="https://img.shields.io/github/repo-size/pitmonticone/RedditTextClassification">
+  </a>
+    <img alt="Languages" src="https://img.shields.io/github/languages/count/pitmonticone/RedditTextClassification">
+  </a>
+    <img alt="Contributors" src="https://img.shields.io/github/contributors/pitmonticone/RedditTextClassification">
+  </a>
+    <a href="https://opensource.org/licenses/Apache-2.0">
+    <img alt="Apache-2.0 Licence" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg">
+  </a>
+  
+</p>
 
-# Reddit Gender Text-Classification
+<!-- Title -->
+<h1 align="center">
+  Reddit Gender Text-Classification
+</h1>
+
+<!-- Badges -->
+</p>
+
+<p align="center">
+  <a href="https://www.kaggle.com/pietromonticone/submission">
+    <img alt="Kaggle" src="https://kaggle.com/static/images/open-in-kaggle.svg">
+  </a>
+  <a href="https://nbviewer.jupyter.org/github/pitmonticone/RedditTextClassification/">
+    <img alt="nbviewer" src="https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg">
+  </a>
+  <a href="https://colab.research.google.com/github/pitmonticone/RedditTextClassification/blob/master">
+    <img alt="Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
+  </a>
+  
+</p>
 
 [**Team**](#team)
 

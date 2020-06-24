@@ -108,4 +108,4 @@ The training set has been grouped by author and the resulting texts, as if aggre
 4. The predictions on the 20% of the XGBoost and of the two MLPs were used to train and validate a final logistic regression.  
 5. Finally, a new XGBoost and and two new MLPs were trained on all train texts, and the predictions of the two used by the logistic regression to output the final submission.  
 
-![](https://github.com/InPhyT/DataMiningChallange/blob/master/Images/flow-chart.png)
+![](https://github.com/InPhyT/DataMiningChallange/blob/master/images/flow-chart.png)

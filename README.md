@@ -2,46 +2,50 @@
 </p>
 
 <p align="center">
-    <img alt="Size" src="https://img.shields.io/github/repo-size/pitmonticone/RedditTextClassification">
+    <img alt="Size" src="https://img.shields.io/github/repo-size/InPhyT/DataMiningChallange">
   </a>
-    <img alt="Languages" src="https://img.shields.io/github/languages/count/pitmonticone/RedditTextClassification">
+    <img alt="Languages" src="https://img.shields.io/github/languages/count/InPhyT/DataMiningChallange">
   </a>
-    <img alt="Contributors" src="https://img.shields.io/github/contributors/pitmonticone/RedditTextClassification">
+  <a href="https://github.com/InPhyT/DataMiningProject/graphs/contributors">
+    <img alt="Contributors" src="https://img.shields.io/github/contributors/InPhyT/DataMiningChallange">
   </a>
-    <a href="https://opensource.org/licenses/Apache-2.0">
-    <img alt="Apache-2.0 Licence" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg">
+    <img alt="MIT Licence" src="https://img.shields.io/badge/License-MIT-yellow.svg">
   </a>
   
 </p>
 
 <!-- Title -->
 <h1 align="center">
-  Reddit Gender Text-Classification
+  Data Mining Challange
 </h1>
+
+<!-- Subtitle -->
+<h3 align="center">
+  Reddit Gender Text-Classification
+</h3>
 
 <!-- Badges -->
 </p>
 
 <p align="center">
-  <a href="https://www.kaggle.com/pietromonticone/submission">
+  <a href="https://www.kaggle.com/inphyt2020/dataminingchallange">
     <img alt="Kaggle" src="https://kaggle.com/static/images/open-in-kaggle.svg">
   </a>
-  <a href="https://nbviewer.jupyter.org/github/pitmonticone/RedditTextClassification/">
+  <a href="https://nbviewer.jupyter.org/github/InPhyT/DataMiningChallange/">
     <img alt="nbviewer" src="https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg">
   </a>
-  <a href="https://colab.research.google.com/github/pitmonticone/RedditTextClassification/blob/master">
+  <a href="https://colab.research.google.com/github/InPhyT/DataMiningChallange/blob/master">
     <img alt="Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
   </a>
   
 </p>
 
-[**Team**](#team)
+## How to Explore this Work
 
-[**Overview**](#overview)
+* Read the code in the [Jupyter notebooks](https://nbviewer.jupyter.org/github/InPhyT/DataMiningChallange/blob/master/Notebooks/notebook.ipynb).
+* Run the code in the [Kaggle notebook](https://www.kaggle.com/inphyt2020/dataminingchallange).
 
-[**Solution**](#solution)
-
-## Team
+## Authors
 
 * Monticone Pietro | [Mail](pietro.monticone@edu.unito.it) | [Github](https://github.com/pitmonticone)
 * Moroni Claudio | [Mail](claudio.moroni@edu.unito.it) | [Github](https://github.com/claudio20497)
@@ -91,8 +95,8 @@ Each comment has the following structure:
 
 ### Unsuccessful Models
 
-An exploration of [SpaCy](https://github.com/explosion/spaCy) was performed. One may find the relevant notebooks [here](https://nbviewer.jupyter.org/github/pitmonticone/RedditTextClassification/tree/master/spaCy/). The model works and has a similar strategy to the one presented below, though its performance is lower (roc = 0.894). The exploration has been concluded with this [Stack Overflow question](https://stackoverflow.com/questions/60821793/text-classification-with-spacy-going-beyond-the-basics-to-improve-performance), this [GitHub Issue](https://github.com/explosion/spaCy/issues/5224) and a comment to a [Feature Request](https://github.com/explosion/spaCy/issues/2253#issuecomment-605502320). 
-We've also tried [neural networks](https://nbviewer.jupyter.org/github/pitmonticone/RedditTextClassification/tree/master/keras-neural-networks/) with `Keras`.
+An exploration of [SpaCy](https://github.com/explosion/spaCy) was performed. One may find the relevant notebooks [here](https://nbviewer.jupyter.org/github/InPhyT/DataMiningChallange/tree/master/spaCy/). The model works and has a similar strategy to the one presented below, though its performance is lower (roc = 0.894). The exploration has been concluded with this [Stack Overflow question](https://stackoverflow.com/questions/60821793/text-classification-with-spacy-going-beyond-the-basics-to-improve-performance), this [GitHub Issue](https://github.com/explosion/spaCy/issues/5224) and a comment to a [Feature Request](https://github.com/explosion/spaCy/issues/2253#issuecomment-605502320). 
+We've also tried [neural networks](https://nbviewer.jupyter.org/github/InPhyT/DataMiningChallange/tree/master/keras-neural-networks/) with `Keras`.
 
 ### Successful Models
 
@@ -104,22 +108,4 @@ The training set has been grouped by author and the resulting texts, as if aggre
 4. The predictions on the 20% of the XGBoost and of the two MLPs were used to train and validate a final logistic regression.  
 5. Finally, a new XGBoost and and two new MLPs were trained on all train texts, and the predictions of the two used by the logistic regression to output the final submission.  
 
-![](https://github.com/pitmonticone/RedditTextClassification/blob/master/images/flow-chart.png)
-
-<br><br>
-
-## Copyright 2020 Pietro Monticone
-
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+![](https://github.com/InPhyT/DataMiningChallange/blob/master/Images/flow-chart.png)

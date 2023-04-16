@@ -66,15 +66,15 @@ The evaluation metric for this competition is the [Area Under the ROC Curve](htt
 
 **For every author in the dataset**, submission files should contain two columns: author and gender. The column author should be a string. The column gender can be any real value. The higher is your confidence that the author is female, the higher should be the corresponding value in the gender column.
 
-## Data 
+## Data ([Download](https://kaggle.com/datasets/f85c0f5c74874fb56104d5e9875752c594aa98464c6a85b1be42c6755ccf6ad8))
 
 We selected a total of 20k users with self reported gender. Among these, we selected 5000 for training, and the remaining 15000 are used for evaluation. 
 
 ### File Descriptions
 
-* **train_data.csv.gz**: contains all comments of the users selected for training
+* **train_data.csv**: contains all comments of the users selected for training
 * **train_target.csv**: contains the genders of the users selected for training
-* **test_data.csv.gz**: contains the comments of the users selected for evaluation
+* **test_data.csv**: contains the comments of the users selected for evaluation
 * **sample.csv**: a sample submission file in the correct format
 
 ### Data Fields
